@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cca6538f-cb86-4d42-b480-1c8389d9aa4e" name="Changes" comment="The 1.0 version of cookbook">
-      <change afterPath="$PROJECT_DIR$/cookbook_storage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TeamCokkbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TeamCokkbook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookbook.py" beforeDir="false" afterPath="$PROJECT_DIR$/cookbook.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

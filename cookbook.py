@@ -1,7 +1,31 @@
 from cookbook_storage import get_cookbook_data, write_cookbook_data
 
+
+def cookbook_menu() -> None:
+    """
+    Listener Loop which prints the menu and lets User choose a function to use.
+    TODO: Implement functionality, need to talk with teamleader for assignment.
+    :return: None
+    """
+    function_dict = {
+        "1": {
+            "function": list_recipes,
+            "name": "List all recipes"
+        },
+        "2": {
+            "function": display_recipe,
+            "name": "Search for specific recipe"
+        },
+        "3": {
+            "function": adding_recipe,
+            "name": "Add new recipe"
+        },
+    }
+    pass
+
+
 # assigned member: Chris
-def adding_recipes():
+def adding_recipe():
     """
     Recipe Adding Functionality - Create a function that
     takes user input for a recipe name, ingredients, and instructions and
@@ -28,7 +52,7 @@ def search_recipes(cookbook_data: list) -> int:
     pass
 
 # assigned member: Kenneth
-def display_recipes() -> None:
+def display_recipe() -> None:
     """
     Calls search_recipes() to get index of desired recipe and prints out all details.
     :return: None
