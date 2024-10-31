@@ -57,7 +57,14 @@ def display_recipe() -> None:
     Calls search_recipes() to get index of desired recipe and prints out all details.
     :return: None
     """
-    pass
+    cookbook_data = get_cookbook_data()
+    recipe_index = search_recipes()
+
+    recipe_name = cookbook_data[recipe_index]["Name"]
+    recipe_ingredients = cookbook_data[recipe_index]["Ingredients"]
+    recipe_instructions = cookbook_data[recipe_index]["Instructions"]
+
+    print(f"{recipe_name}\nIngredients: {recipe_ingredients}\nInstructions: {recipe_instructions}\n")
 
 
 def main():
