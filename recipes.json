@@ -1,0 +1,21 @@
+{
+    "pancakes": {
+        "name": "Pancakes",
+        "ingredients": [
+            "flour",
+            "milk",
+            "egg",
+            "sugar"
+        ],
+        "instructions": "Mix ingredients together and cook on a hot griddle until golden brown on each side."
+    },
+    "omelette": {
+        "name": "Omelette",
+        "ingredients": [
+            "egg",
+            "milk",
+            "cheese"
+        ],
+        "instructions": "Whisk eggs and milk, pour into a hot pan, add cheese, and cook until set."
+    }
+}
